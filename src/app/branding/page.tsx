@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import Image from 'next/image'
 
 function page() {
   return (
@@ -14,9 +14,8 @@ function page() {
     </section>
     <div className='w-full py-10 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-16'>
-            <img src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='my-4 mx-auto order-2 rounded-3xl'/>
+            <Image src="/Branding.jpg" alt="branding" className='my-4 mx-auto order-2 rounded-3xl' width={350} height={350}/>
             <div className='flex flex-col justify-center'>
-                <h1 className='text-4xl font-bold text-[#213E60] pb-8'>Construire une Image Mémorable et Cohérente pour Votre Entreprise</h1>
                 <p className='font-medium leading-loose text-lg'>
                     L’identité de votre marque est notre passion. Nous travaillons avec vous pour créer une image de marque distincte et mémorable. Du développement de logos à l’établissement de messages cohérents, nous faisons en sorte que chaque interaction renforce la personnalité unique de votre entreprise, établissant ainsi une connexion durable avec votre public cible.
                 </p>

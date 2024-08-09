@@ -43,14 +43,16 @@ export default function Home() {
     </section>
     <section className="container mx-auto w-full p-5" id="services">
       <h1 className='text-[#213E60] font-bold text-3xl md:text-4xl text-center my-14 py-10'>Nos Services</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
         <div className="border rounded-md border-[#213E60] p-5 bg-[#213E60] hover:bg-[#001F3F] duration-300">
           <div>
             <h1 className="font-bold text-[#E68C3A] text-xl flex gap-5 items-center"><span><TbCode size={50} className="text-[#F4F2EF]"/></span>Création de Sites Web</h1>
             <p className="text-lg py-5 text-[#F4F2EF]">
               Notre équipe de concepteurs web vous aide à transformer vos idées en une présence en ligne captivante et fonctionnelle ...
             </p>
-            <Link href="/creation_de_site_web" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            <div className="mt-12">
+              <Link href="/creation_de_site_web" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            </div>
           </div>
         </div>
         <div className="border rounded-md border-[#213E60] p-5 bg-[#213E60] hover:bg-[#001F3F] duration-300">
@@ -60,7 +62,9 @@ export default function Home() {
             Plongez dans l’ère numérique avec nos stratégies de marketing digital.
             De l’élaboration de campagnes digitales stratégiques ...
             </p>
-            <Link href="/marketing_des_reseaux_sociaux" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            <div className="mt-12">
+              <Link href="/marketing_des_reseaux_sociaux" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            </div>
           </div>
         </div>
         <div className="border rounded-md border-[#213E60] p-5 bg-[#213E60] hover:bg-[#001F3F] duration-300">
@@ -69,7 +73,9 @@ export default function Home() {
             <p className="text-lg py-5 text-[#F4F2EF]">
             L’identité de votre marque est notre passion. Nous travaillons avec vous pour créer une image de marque distincte et mémorable ...
             </p>
-            <Link href="branding" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            <div className="mt-20">
+              <Link href="branding" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            </div>
           </div>
         </div>
         <div className="border rounded-md border-[#213E60] p-5 bg-[#213E60] hover:bg-[#001F3F] duration-300">
@@ -78,7 +84,20 @@ export default function Home() {
             <p className="text-lg py-5 text-[#F4F2EF]">
             Notre service de référencement SEO vous garantit une visibilité accrue sur le moteur de recherche Google. Nous ciblons les meilleures ...
             </p>
-            <Link href="/optimisation_de_referencement_SEO" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            <div className="mt-5">
+              <Link href="/optimisation_de_referencement_SEO" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            </div>
+          </div>
+        </div>
+        <div className="border rounded-md border-[#213E60] p-5 bg-[#213E60] hover:bg-[#001F3F] duration-300">
+          <div>
+            <h1 className="font-bold text-[#E68C3A] text-xl flex gap-5 items-center"><span><TfiWorld size={50} className="text-[#F4F2EF]"/></span>Événementiel</h1>
+            <p className="text-lg py-5 text-[#F4F2EF]">
+            Nous offrons un accompagnement complet pour planifier et organiser vos évènements. Qu’il s’agisse de conférences ...
+            </p>
+            <div className="mt-20">
+              <Link href="/evenementiel" className="text-[#E68C3A] text-lg font-bold hover:text-[#F4F2EF] duration-300">Lire la suite &rarr;</Link>
+            </div>
           </div>
         </div>
       </div>
@@ -88,11 +107,11 @@ export default function Home() {
         <div className="max-w-screen-xl m-auto justify-between items-center flex px-4 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 h-[440px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-justify">
             <div>
-              <h1 className="text-5xl font-black text-[#E68C3A] pb-9">PARLEZ À L’UN DE NOS SPÉCIALISTES.</h1>
-              <p className="text-2xl font-semibold text-[#F4F2EF]">Pour des questions ou plus d’informations, contactez-nous! Notre équipe est prête à vous servir.</p>
+              <h1 className="text-4xl font-black text-[#fff] pb-9">Réservez votre consultation gratuite dès aujourd’hui!</h1>
+              <p className="text-xl font-semibold text-[#F4F2EF]">Donnez à vos idées l’attention qu’elles méritent et débloquons ensemble de nouvelles opportunités pour votre marque.</p>
             </div>
             <div className="flex items-center pl-10">
-              <p className="text-2xl md:text-5xl font-extrabold text-[#25d366] flex items-center gap-4 md:gap-7"><span><RiWhatsappFill size={70}/></span>(212)663804668</p>
+              <p className="text-2xl md:text-4xl font-extrabold text-[#25d366] flex items-center gap-4 md:gap-7"><span><RiWhatsappFill size={65}/></span>(212)663804668</p>
             </div>
           </div>
         </div>

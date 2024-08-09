@@ -20,6 +20,7 @@ function Nav() {
       <div className='hidden w-full justify-between md:flex text-base'>
         <Link href="/#agence" className="hover:text-[#213E60]">Agence</Link>
         <Link href="/#services" className="hover:text-[#213E60]">Services</Link>
+        <Link href="/projets" className="hover:text-[#213E60]">Projets</Link>
         <Link href="/contact" className="hover:text-[#213E60]">Contact</Link>
       </div>
       <div className="md:hidden">
@@ -32,6 +33,7 @@ function Nav() {
       <div className="flex flex-col items-center basis-full">
         <Link href="/#agence" className="hover:border-[#213E60] pt-11 border-b pb-2 duration-300">Agence</Link>
         <Link href="/#services" className="hover:border-[#213E60] pt-11 border-b pb-2 duration-300">Services</Link>
+        <Link href="/projets" className="hover:border-[#213E60] pt-11 border-b pb-2 duration-300">Projets</Link>
         <Link href="/contact" className="hover:border-[#213E60] pt-11 border-b pb-2 duration-300">Contact</Link>
         <div className="mt-10 text-center">
           <h1 className="font-bold">Follow us</h1>

@@ -11,7 +11,7 @@ export const Header = () => {
           <Nav />
           <div className="hidden md:flex">
             <div className="mr-5 md:mr-0">
-              <a href="#"><RiWhatsappFill size={30} className="text-[#25d366] hover:text-[#128c7e] duration-300 cursor-pointer"/></a>
+              <a href="tel:+212708053420"><RiWhatsappFill size={30} className="text-[#25d366] hover:text-[#128c7e] duration-300 cursor-pointer"/></a>
             </div>
           </div>
       </div>
