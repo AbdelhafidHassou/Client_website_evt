@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { TbCode } from "react-icons/tb";
 import { IoShareSocialOutline } from "react-icons/io5";
@@ -107,7 +106,7 @@ export default function Home() {
         <div className="max-w-screen-xl m-auto justify-between items-center flex px-4 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 h-[440px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-justify">
             <div>
-              <h1 className="text-4xl font-black text-[#fff] pb-9">Réservez votre consultation gratuite dès aujourd’hui!</h1>
+              <h1 className="text-5xl font-medium text-[#fff] pb-9">Réservez une consultation gratuite dès aujourd’hui!</h1>
               <p className="text-xl font-semibold text-[#F4F2EF]">Donnez à vos idées l’attention qu’elles méritent et débloquons ensemble de nouvelles opportunités pour votre marque.</p>
             </div>
             <div className="flex items-center pl-10">

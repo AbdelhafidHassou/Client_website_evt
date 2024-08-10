@@ -5,7 +5,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 export const Header = () => {
   return (
-    <nav className="fixed left-0 top-0 ease-in duration-300 z-40 w-full bg-white shadow-md">
+    <nav className="duration-300 z-40 w-full bg-white shadow-md">
         <div className="max-w-screen-xl m-auto flex items-center justify-between mx-auto p-5 flex-wrap">
           <Logo />
           <Nav />

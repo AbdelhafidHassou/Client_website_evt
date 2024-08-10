@@ -25,7 +25,10 @@ function Footer() {
                 </ul>
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <h1 className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 ELEVATE. All Rights Reserved.</h1>
+            <p className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                © 2024 ELEVATE. All Rights Reserved.
+                Created by <a href="https://www.linkedin.com/in/abdelhafidhassou" target="_blank" rel="noopener noreferrer">DIFAZ</a>
+            </p>
         </div>
     </footer>
     </>
