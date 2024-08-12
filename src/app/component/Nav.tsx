@@ -70,10 +70,12 @@ function Nav() {
             <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </Link>
           <div className="mt-10 text-center">
-            <h1 className="font-bold text-lg">Follow us</h1>
+            <h1 className="font-bold text-lg">Get in touch</h1>
             <div className="flex justify-between gap-4 pt-3 text-black">
               <a href="https://www.linkedin.com/company/act-agency-ma/"><GrLinkedin size={24} /></a>
-              <a href="tel:+212663804668"><SiWhatsapp size={24} /></a>
+              <button onClick={() => window.location.href = 'https://wa.me/message/XSCAJDMUVQ4CG1'}>
+                <SiWhatsapp size={24} />
+              </button>
             </div>
           </div>
         </div>
