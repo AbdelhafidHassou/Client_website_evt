@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState } from 'react';
-import { toast, Toaster } from 'sonner'; // Import Sonner's toast and Toaster components
+import { toast, Toaster } from 'sonner';
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -58,9 +58,9 @@ const Contact = () => {
             Contactez-nous, on adore échanger!
           </h1>
         </div>
-        <form ref={formRef} onSubmit={handleSubmit} className="lg:w-1/2 md:w-2/3 mx-auto">
+        <form ref={formRef} onSubmit={handleSubmit} className="lg:w-2/3 md:w-3/4 mx-auto">
           <div className="flex flex-wrap -m-2">
-            <div className="p-2 w-1/2">
+            <div className="p-2 w-full md:w-1/2">
               <div className="relative">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                   Nom <span className='text-[#d90429]'>*</span>
@@ -72,11 +72,11 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full rounded border border-gray-300 focus:border-[#213E60] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full rounded border border-gray-300 focus:border-[#213E60] text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
-            <div className="p-2 w-1/2">
+            <div className="p-2 w-full md:w-1/2">
               <div className="relative">
                 <label htmlFor="email" className="leading-7 text-sm text-gray-600">
                   E-mail <span className='text-[#d90429]'>*</span>
@@ -88,7 +88,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full rounded border border-gray-300 focus:border-[#213E60] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full rounded border border-gray-300 focus:border-[#213E60] text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full rounded border border-gray-300 focus:border-[#213E60] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full rounded border border-gray-300 focus:border-[#213E60] text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -119,60 +119,65 @@ const Contact = () => {
                   value={formData.object}
                   onChange={handleChange}
                   required
-                  className="w-full rounded border border-gray-300 focus:border-[#213E60] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full rounded border border-gray-300 focus:border-[#213E60] text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
-            <div className="p-2 w-full flex items-center space-x-4">
-              <div>
+            <div className="p-2 w-full flex flex-wrap gap-4">
+              <div className="flex items-center">
                 <input
                   type="checkbox"
                   id="web"
                   value="Sites Web"
                   checked={formData.interests.includes('Sites Web')}
                   onChange={handleCheckboxChange}
+                  className="form-checkbox"
                 />
-                <label htmlFor="web" className="ml-2">Sites Web</label>
+                <label htmlFor="web" className="ml-2 text-sm">Sites Web</label>
               </div>
-              <div>
+              <div className="flex items-center">
                 <input
                   type="checkbox"
                   id="social"
                   value="Réseaux Sociaux"
                   checked={formData.interests.includes('Réseaux Sociaux')}
                   onChange={handleCheckboxChange}
+                  className="form-checkbox"
                 />
-                <label htmlFor="social" className="ml-2">Réseaux Sociaux</label>
+                <label htmlFor="social" className="ml-2 text-sm">Réseaux Sociaux</label>
               </div>
-              <div>
+              <div className="flex items-center">
                 <input
                   type="checkbox"
                   id="branding"
                   value="Branding"
                   checked={formData.interests.includes('Branding')}
                   onChange={handleCheckboxChange}
+                  className="form-checkbox"
                 />
-                <label htmlFor="branding" className="ml-2">Branding</label>
+                <label htmlFor="branding" className="ml-2 text-sm">Branding</label>
               </div>
-              <div>
+              <div className="flex items-center">
                 <input
                   type="checkbox"
                   id="seo"
                   value="SEO"
                   checked={formData.interests.includes('SEO')}
                   onChange={handleCheckboxChange}
+                  className="form-checkbox"
                 />
-                <label htmlFor="seo" className="ml-2">SEO</label>
+                <label htmlFor="seo" className="ml-2 text-sm">SEO</label>
               </div>
-              <div>
+              <div className="flex items-center">
                 <input
                   type="checkbox"
                   id="event"
                   value="Événementiel"
                   checked={formData.interests.includes('Événementiel')}
                   onChange={handleCheckboxChange}
+                  className="form-checkbox"
                 />
-                <label htmlFor="event" className="ml-2">Événementiel</label>
+                <label htmlFor="event" className="ml-2 text-sm">Événementiel</label>
               </div>
             </div>
             <div className="p-2 w-full">
@@ -186,12 +191,12 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="w-full rounded border border-gray-300 focus:border-[#213E60] h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  className="w-full rounded border border-gray-300 focus:border-[#213E60] h-32 text-base outline-none text-gray-700 py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
             </div>
             <div className="p-2 w-full">
-              <button type="submit" className="flex mx-auto text-white bg-[#213E60] border-0 py-4 px-16 focus:outline-none hover:bg-[#001F3F] rounded-md text-lg duration-300">
+              <button type="submit" className="flex mx-auto text-white bg-black border-0 py-4 px-8 focus:outline-none hover:bg-[#feab73] rounded-md text-lg duration-300">
                 Envoyer
               </button>
             </div>
@@ -199,6 +204,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+
   );
 };
 

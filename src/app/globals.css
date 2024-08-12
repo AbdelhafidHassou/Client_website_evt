@@ -20,17 +20,21 @@ body {
 }
 
 .mark-img {
-    background-color: #e4a576;
+    background-color: #c2b19c;
 }
 
 .brand-img {
-    background-color: #ccd5d2;
+    background-color: #feab73;
 }
 
 .seo-img {
-    background-color: #fde5d6;
+    background-color: #ccc6bd;
 }
 
 .csw-img {
-    background-color: #698ea2;
+    background-color: #000;
+}
+
+.evn-img {
+    background-color: #cab6ad;
 }

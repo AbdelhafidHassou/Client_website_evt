@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 
-function projets() {
+function Projets() {
   return (
-    <div className="text-gray-800">
+    <div className="text-gray-800 mt-20">
       <div className="text-center py-12">
-        <h1 className="text-4xl font-bold text-gray-900">
+        <h1 className="text-2xl font-bold text-gray-900">
           Aston Martin Casablanca – Stand / Photomur
         </h1>
       </div>
@@ -15,11 +15,11 @@ function projets() {
           <Image
             src="/ASTON40.png"
             alt="Stand Aston Martin Casablanca"
-            layout="intrinsic"
-            objectFit="contain"
+            layout="responsive"
             width={1000}
             height={600}
-            className="sm:rounded-lg shadow-md"
+            objectFit="contain"
+            className="rounded-lg shadow-md"
           />
         </div>
       </div>
@@ -32,17 +32,8 @@ function projets() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-          <div className="relative h-64">
-            <Image
-              src="/ASTON46.png" 
-              alt="Détail du stand"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg shadow-md"
-            />
-          </div>
-          <div className="relative h-64">
+        <div className="grid grid-cols-1 mb-12">
+          <div className="relative h-96">
             <Image
               src="/ASTON31.png" 
               alt="Éclairage du stand"
@@ -60,17 +51,8 @@ function projets() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="relative h-64">
-            <Image
-              src="/ASTON.jpg"
-              alt="Stand complet"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg shadow-md"
-            />
-          </div>
-          <div className="relative h-64">
+        <div className="grid grid-cols-1 gap-6">
+          <div className="relative h-96">
             <Image
               src="/ASTON12.png"
               alt="Stand complet"
@@ -82,7 +64,7 @@ function projets() {
         </div>
 
         <div className="space-y-4 mt-12">
-          <h2 className="text-2xl font-semibold text-gray-800">Le Résultat</h2>
+          <h3 className="text-2xl font-semibold text-gray-800">Le Résultat</h3>
           <p className="text-lg leading-relaxed">
             Le stand a attiré l’attention et suscité l’admiration lors des expositions, offrant une présentation captivante qui a mis en valeur l’exclusivité des véhicules Aston Martin. Cette réalisation a renforcé notre expertise en conception de stands sur mesure et a démontré notre capacité à créer des expériences mémorables pour des marques prestigieuses.
           </p>
@@ -92,4 +74,4 @@ function projets() {
   );
 }
 
-export default projets
+export default Projets
