@@ -23,7 +23,7 @@ function Footer() {
                     </div>
                     <hr className="my-6 border-gray-200" />
                     <p className="text-sm text-gray-500 text-center">
-                        © 2024 Luna Creative Studio. All Rights Reserved. | Created by <a href="https://www.linkedin.com/in/abdelhafidhassou" target="_blank" rel="noopener noreferrer" className="text-[#213E60] hover:underline">DIFAZ</a>
+                        © 2024 Luna Creative Studio. All Rights Reserved.
                     </p>
                 </div>
             </footer>
