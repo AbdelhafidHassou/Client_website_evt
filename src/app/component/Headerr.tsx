@@ -14,7 +14,7 @@ export const Header = () => {
           <div className="hidden md:flex">
             <div className="mr-5 md:mr-0">
               <button onClick={() => window.location.href = 'https://wa.me/message/XSCAJDMUVQ4CG1'}>
-                <SiWhatsapp size={30} />
+                <SiWhatsapp size={22} />
               </button>
             </div>
           </div>

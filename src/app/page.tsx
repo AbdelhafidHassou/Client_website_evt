@@ -138,14 +138,13 @@ export default function Home() {
             </p>
           </div>
           <div className="flex items-center text-center lg:text-left lg:pl-10">
-            <p className="text-3xl lg:text-4xl font-extrabold text-[#25d366] flex items-center justify-center gap-4 lg:gap-7">
-              <RiWhatsappFill size={65} />
+            <p className="text-2xl lg:text-4xl font-extrabold text-[#25d366] flex items-center justify-center gap-2 lg:gap-4">
+              <RiWhatsappFill size={50} />
               (+212)663.804.668
             </p>
           </div>
         </div>
       </section>
-
     </>
   );
 }

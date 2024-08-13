@@ -15,8 +15,7 @@ function Nav() {
   return (
     <>
       <nav className='flex w-1/3 justify-end items-center'>
-        <div className='hidden w-full justify-between md:flex text-base'>
-          {/* Desktop Links */}
+        <div className='hidden w-full justify-between md:flex text-base gap-4'>
           <Link href="/#agence" className="relative group">
             <span className="hover:text-black">L'AGENCE</span>
             <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
