@@ -31,7 +31,7 @@ function Page() {
         <div className="text-lg leading-relaxed mb-12">
           <p className="mb-4 font-semibold text-gray-800">Notre Expertise</p>
           <p className="mb-4">
-            Notre équipe de designers et d'artisans talentueux met tout en œuvre pour concevoir des stands qui reflètent parfaitement votre marque. Que vous ayez besoin d’un stand, d’un kiosque élégant ou d’une installation entièrement sur mesure, nous nous engageons à offrir des solutions innovantes et de haute qualité.
+            Notre équipe de designers et d'artisans talentueux met tout en œuvre pour concevoir des stands qui reflètent parfaitement votre marque. Que vous ayez besoin d'un stand, d'un kiosque élégant ou d'une installation entièrement sur mesure, nous nous engageons à offrir des solutions innovantes et de haute qualité.
           </p>
 
           <p className="mb-4 font-semibold text-gray-800">Nos Services</p>

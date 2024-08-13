@@ -24,13 +24,13 @@ function page() {
                     />
                     <div className="flex flex-col justify-center text-gray-800">
                         <p className="font-medium leading-relaxed text-lg">
-                            Notre équipe de concepteurs web vous aide à transformer vos idées en une présence en ligne captivante et fonctionnelle. Design remarquable et navigation fluide, chaque détail est soigneusement pensé pour refléter l’essence unique de votre entreprise.
+                            Notre équipe de concepteurs web vous aide à transformer vos idées en une présence en ligne captivante et fonctionnelle. Design remarquable et navigation fluide, chaque détail est soigneusement pensé pour refléter l'essence unique de votre entreprise.
                         </p>
                         <p className="font-medium leading-relaxed text-lg mt-4">
                             En mettant l'accent sur une expérience utilisateur exceptionnelle, nous veillons à ce que vos visiteurs soient non seulement impressionnés par l'esthétique de votre site, mais qu'ils puissent aussi naviguer facilement et trouver ce qu'ils recherchent.
                         </p>
                         <p className="font-medium leading-relaxed text-lg mt-4">
-                            En plus de la création visuelle, nous gérons également tous les aspects techniques de votre projet web. Nous nous occupons de l’hébergement de votre site, de l’enregistrement de votre nom de domaine, et de la mise en place de votre messagerie professionnelle. Vous pouvez ainsi vous concentrer pleinement sur votre activité, tandis que nous prenons en charge tout ce qu’il faut pour que votre site soit prêt à accueillir vos clients en ligne.
+                            En plus de la création visuelle, nous gérons également tous les aspects techniques de votre projet web. Nous nous occupons de l'hébergement de votre site, de l'enregistrement de votre nom de domaine, et de la mise en place de votre messagerie professionnelle. Vous pouvez ainsi vous concentrer pleinement sur votre activité, tandis que nous prenons en charge tout ce qu'il faut pour que votre site soit prêt à accueillir vos clients en ligne.
                         </p>
                         <p className="font-medium leading-relaxed text-lg mt-4">
                             Notre objectif est de vous fournir une solution complète qui soutient votre croissance et reflète la qualité de votre entreprise.
@@ -42,7 +42,7 @@ function page() {
                     <div className='w-full shadow-xl flex flex-col py-4 my-4 rounded-lg hover:scale-105 duration-300'>
                         <h1 className='text-3xl font-bold text-[#000000] text-center py-8'>Pack Essentiel</h1>
                         <div className='text-center font-medium'>
-                            <p className='py-2 border-b mx-8 mt-8'>Jusqu’à 5 pages</p>
+                            <p className='py-2 border-b mx-8 mt-8'>Jusqu'à 5 pages</p>
                             <p className='py-2 border-b mx-8 mt-8'>Hébergement et nom de domaine (Offerts la première année)</p>
                             <p className='py-2 border-b mx-8 mt-8'>Design personnalisé et responsive</p>
                             <p className='py-2 border-b mx-8 mt-8'>Intégration de formulaire de contact</p>
@@ -53,7 +53,7 @@ function page() {
                     <div className='w-full shadow-xl flex flex-col py-4 my-4 rounded-lg hover:scale-105 duration-300'>
                         <h1 className='text-3xl font-bold text-[#000000] text-center py-8'>Pack Pro</h1>
                         <div className='text-center font-medium'>
-                            <p className='py-2 border-b mx-8 mt-8'>Jusqu’à 10 pages</p>
+                            <p className='py-2 border-b mx-8 mt-8'>Jusqu'à 10 pages</p>
                             <p className='py-2 border-b mx-8 mt-8'>Hébergement et nom de domaine (Offerts la première année)</p>
                             <p className='py-2 border-b mx-8 mt-8'>Design personnalisé et responsive</p>
                             <p className='py-2 border-b mx-8 mt-8'>Intégration de formulaire de contact</p>
