@@ -29,12 +29,12 @@ function Page() {
         </div>
 
         <div className="text-lg leading-relaxed mb-12">
-          <p className="mb-4 font-semibold text-gray-800">Notre Expertise</p>
+          <p className="mb-4 font-bold text-gray-800 titre">Notre Expertise</p>
           <p className="mb-4">
             Notre équipe de designers et d'artisans talentueux met tout en œuvre pour concevoir des stands qui reflètent parfaitement votre marque. Que vous ayez besoin d'un stand, d'un kiosque élégant ou d'une installation entièrement sur mesure, nous nous engageons à offrir des solutions innovantes et de haute qualité.
           </p>
 
-          <p className="mb-4 font-semibold text-gray-800">Nos Services</p>
+          <p className="mb-4 font-bold text-gray-800 titre">Nos Services</p>
           <ul className="list-disc list-inside mb-4">
             <li>Conception Personnalisée : Nous collaborons étroitement avec vous pour concevoir un stand qui répond à vos besoins spécifiques et reflète votre identité visuelle.</li>
             <li>Fabrication sur Mesure : Chaque projet est réalisé avec des matériaux de qualité, garantissant durabilité et esthétique.</li>
@@ -42,7 +42,7 @@ function Page() {
             <li>Service Après-Vente : Nous restons à votre écoute pour tout ajustement ou entretien nécessaire après la livraison.</li>
           </ul>
 
-          <p className="mb-4 font-semibold text-gray-800">Pourquoi confier vos projets à l'Atelier ?</p>
+          <p className="mb-4 font-bold text-gray-800 titre">Pourquoi confier vos projets à l'Atelier ?</p>
           <ul className="list-disc list-inside mb-8">
             <li>Créativité et Innovation : Nous repoussons les limites pour vous offrir des designs originaux.</li>
             <li>Qualité Supérieure : Nos stands sont conçus pour être à la fois élégants et robustes.</li>
