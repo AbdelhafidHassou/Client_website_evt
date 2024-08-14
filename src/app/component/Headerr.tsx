@@ -7,7 +7,7 @@ import { SiWhatsapp } from "react-icons/si";
 export const Header = () => {
   return (
     <>
-      <nav className="fixed top-0 z-40 w-full bg-white shadow-md duration-300">
+      <nav className="fixed top-0 z-40 w-full bg-white shadow-md duration-300 menu">
         <div className="max-w-screen-xl m-auto flex items-center justify-between mx-auto p-5 flex-wrap">
           <Logo />
           <Nav />

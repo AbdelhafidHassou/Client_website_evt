@@ -7,7 +7,7 @@ function page() {
         <>
             <section className="bg-center bg-cover brand-img mb-20">
                 <div>
-                    <div className="max-w-screen-xl m-auto justify-center items-center flex px-4 py-8 h-[440px]">
+                    <div className="max-w-screen-xl m-auto justify-center items-center flex px-4 py-8 h-[440px] service">
                         <h1 className=' text-3xl md:text-6xl font-extrabold text-center text-[#F4F2EF]'>Branding</h1>
                     </div>
                 </div>

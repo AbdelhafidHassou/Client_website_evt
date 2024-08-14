@@ -52,7 +52,7 @@ function Nav() {
         <button className="absolute top-5 right-5" onClick={toggleNavbar}>
           <X />
         </button>
-        <div className="flex flex-col items-center mt-10">
+        <div className="flex flex-col items-center mt-16">
           <Link href="/#agence" className="text-black text-base font-medium uppercase py-2" onClick={toggleNavbar}>
             L'AGENCE
           </Link>
@@ -69,8 +69,10 @@ function Nav() {
             CONTACT
           </Link>
           <div className="mt-10 text-center">
-            <h1 className="font-bold text-lg uppercase">Get in touch</h1>
-            <div className="flex justify-between gap-4 pt-3 text-black">
+          <h1 className="font-bold text-sm uppercase">Get in touch</h1>
+          </div>
+          <div>
+            <div className="flex justify-between gap-4 pt-3">
               <a href="https://www.linkedin.com/company/act-agency-ma/"><GrLinkedin size={24} /></a>
               <button onClick={() => window.location.href = 'https://wa.me/message/XSCAJDMUVQ4CG1'}>
                 <SiWhatsapp size={24} />
