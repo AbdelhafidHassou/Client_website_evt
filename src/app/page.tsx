@@ -49,12 +49,12 @@ export default function Home() {
             nous élaborons des campagnes intégrées pour assurer une présence cohérente sur tous les canaux.
           </p>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8 md:mb-12 mx-auto max-w-3xl">
-            Nous proposons également des solutions événementielles adaptées à vos besoins pour créer des expériences mémorables. Chez Elevate, nous croyons en la puissance
+            Nous proposons également des solutions événementielles adaptées à vos besoins pour créer des expériences mémorables. Chez Luna Creative Studio, nous croyons en la puissance
             des idées créatives et de la stratégie bien pensée. Notre équipe passionnée et dynamique est là pour vous accompagner dans chaque étape de votre parcours marketing,
             de la conception de votre identité à la mise en œuvre de campagnes percutantes.
           </p>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8 md:mb-12 mx-auto max-w-3xl">
-            Nous mettons l’accent sur la créativité, l’efficacité et des résultats tangibles. Avec Elevate, vous bénéficiez d’une approche personnalisée axée sur votre identité
+            Nous mettons l’accent sur la créativité, l’efficacité et des résultats tangibles. Avec Luna Creative Studio, vous bénéficiez d’une approche personnalisée axée sur votre identité
             et vos objectifs spécifiques. Explorez notre site pour découvrir comment nous pouvons donner vie à vos idées et propulser votre entreprise vers de nouveaux horizons.
           </p>
         </div>
