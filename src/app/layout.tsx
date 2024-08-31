@@ -23,14 +23,14 @@ export default function RootLayout({
         <meta name="google-site-verification" content="iFlmk5BIUtKfwX0184nKEpPfRhGTR63EBxU1hq0H1hw" />
         <meta name="google-site-verification" content="iFlmk5BIUtKfwX0184nKEpPfRhGTR63EBxU1hq0H1hw" />
         <meta name="msvalidate.01" content="16D60D394CE146C4B19F0AB4ECEE6B0A" />
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-965Z85STDC"></Script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-N8DC8VMJ4M"></Script>
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-965Z85STDC');
+            gtag('config', 'G-N8DC8VMJ4M');
           `}
         </Script>
       </head>
