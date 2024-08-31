@@ -23,11 +23,6 @@ export default function RootLayout({
         <meta name="google-site-verification" content="iFlmk5BIUtKfwX0184nKEpPfRhGTR63EBxU1hq0H1hw" />
         <meta name="google-site-verification" content="iFlmk5BIUtKfwX0184nKEpPfRhGTR63EBxU1hq0H1hw" />
         <meta name="msvalidate.01" content="16D60D394CE146C4B19F0AB4ECEE6B0A" />
-      </head>
-      <body className={inter.className}>
-        <Headerr />
-        {children}
-        {/* Google tag (gtag.js) */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-965Z85STDC"></Script>
         <Script>
           {`
@@ -38,6 +33,11 @@ export default function RootLayout({
             gtag('config', 'G-965Z85STDC');
           `}
         </Script>
+      </head>
+      <body className={inter.className}>
+        <Headerr />
+        {children}
+        {/* Google tag (gtag.js) */}
         <Footer />
       </body>
     </html>
